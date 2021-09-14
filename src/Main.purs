@@ -4,6 +4,9 @@ import Prelude
 import Effect (Effect)
 import Effect.Console (log)
 
-main :: Effect Unit
-main = do
-  log "Hello, world!"
+hello :: String -> String
+hello str = "Hello, " <> str <> "!"
+
+main :: String -> Effect Unit
+main str = do
+  log $ hello str
