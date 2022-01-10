@@ -20,6 +20,7 @@ in pkgs.stdenv.mkDerivation {
     pursPkgs.purs
     pursPkgs.spago
     pursPkgs.zephyr
+    pursPkgs.purescript-language-server
     pkgs.nodejs-14_x
   ];
 }
