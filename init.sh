@@ -1,5 +1,5 @@
 #!/bin/env sh
 direnv allow
-rm -rf .git
+rm -rf ./.git
 git init
 spago build
